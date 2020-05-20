@@ -338,3 +338,7 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+/published_app
+/BlazorApp12/Server/p23
+/BlazorApp12/Server/published_server
+/publish2

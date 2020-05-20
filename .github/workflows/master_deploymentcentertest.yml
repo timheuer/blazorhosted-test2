@@ -11,7 +11,7 @@ on:
 jobs:
   build-and-deploy:
     runs-on: windows-latest
-
+   
     steps:
     - uses: actions/checkout@master
 
@@ -21,10 +21,10 @@ jobs:
         dotnet-version: '3.1.300'
 
     - name: Build with dotnet
-      run: dotnet build --configuration Release
+      run: dotnet build BlazorApp12/BlazorApp12/Server --configuration Release
 
     - name: dotnet publish
-      run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
+      run: dotnet publish BlazorApp12/BlazorApp12/Server -c Release -o ${{env.DOTNET_ROOT}}/myapp
 
     - name: Deploy to Azure Web App
       uses: azure/webapps-deploy@v1
