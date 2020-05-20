@@ -9,6 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp12.Client", "Blazo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorApp12.Shared", "BlazorApp12\Shared\BlazorApp12.Shared.csproj", "{9AC1E651-B38B-405E-A3CA-682BCA044961}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workflows", "Workflows", "{91328BF7-6F22-418E-9419-F1DD9E5911FE}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\master_deploymentcentertest.yml = .github\workflows\master_deploymentcentertest.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
